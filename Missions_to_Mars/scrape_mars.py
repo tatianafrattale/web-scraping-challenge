@@ -90,3 +90,13 @@ def scrape():
             'title': title,
             'img_url': image_https
         }
+
+    # Dictionary with all of the info
+    mars_dictionary = {
+        "news_title": news_title,
+        "news_text": news_text,
+        "featured_image_url": featured_image_url,
+        "mars_html": str(mars_html),
+        "hemisphere_images": img_dict
+    }
+    return mars_dictionary
